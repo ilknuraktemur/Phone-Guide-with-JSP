@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <description></description>
+    <display-name>Search</display-name>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>Trehberi.Search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>detay</display-name>
+    <servlet-name>detay</servlet-name>
+    <servlet-class>Trehberi.detay</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>detay</servlet-name>
+    <url-pattern>/detay</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>InsertKisi</display-name>
+    <servlet-name>InsertKisi</servlet-name>
+    <servlet-class>Trehberi.InsertKisi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertKisi</servlet-name>
+    <url-pattern>/InsertKisi</url-pattern>
+  </servlet-mapping>
+</web-app>
