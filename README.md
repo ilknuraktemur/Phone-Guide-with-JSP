@@ -5,6 +5,6 @@ Both of them are Java technologies that used for developing web applications. Th
 In this project, servlet used as a controller, jsp as a view component, Java Bean class as a model.<br>
 In this project, we have created 6 pages:<br>
 - onyuz.jsp a page that gets input from the user.<br>
-- search.java and detay.java a servlet that acts as a controller.<br>
+- search.java and detay.java are servlets that acts as a controller.<br>
 - viewResults.jsp and detay.jsp files acts as view components.<br>
 - web.xml file for mapping the servlet.
